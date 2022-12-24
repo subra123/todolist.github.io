@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To DO List</title>
+    <meta name="viewport" content="width:device-width , initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+  
+  <div class="ToDo" id="toDoList">
+     <h1>To DO List</h1>
+      <p>An application to set up new tasks with deadlines, keeping track of incomplete and completed tasks with an added feature of deleting a task when completed.</p>
+      <input type="text" placeholder="Enter the task" id="taskContent"><br>
+      <input type="time" id="taskTime"><br>
+	  <input type="text" placeholder="Enter the task description" id="taskdescription"><br>
+      <button type="submit" id="Add_task">Add Task</button>
+       <h2>Incomplete Tasks</h2>
+      <ul id="incomplete">
+      </ul>
+      
+      <h2>Completed Tasks</h2>
+      <ul id="complete">
+          
+      </ul>
+  </div>
+      <script src="script.js"></script>  
+</body>
+</html>
